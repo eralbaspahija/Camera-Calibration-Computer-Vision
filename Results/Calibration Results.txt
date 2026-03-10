@@ -1,0 +1,40 @@
+======================================================================
+CAMERA CALIBRATION RESULTS
+======================================================================
+
+Date: 2026-01-10 22:59:03
+
+Implementation: Python with OpenCV Library
+Algorithm: Zhang's Camera Calibration Method
+OpenCV Functions Used:
+  - cv2.findChessboardCorners()
+  - cv2.cornerSubPix()
+  - cv2.calibrateCamera()
+  - cv2.undistort()
+
+Number of images used: 18
+Checkerboard pattern: 7x7 internal corners
+Square size: 25.0 mm
+
+--- Intrinsic Parameters ---
+Focal Length (fx, fy): [1234.1480, 1220.2688] pixels
+Principal Point (cx, cy): [528.4376, 564.5803] pixels
+
+--- Distortion Coefficients ---
+Radial Distortion (k1, k2): [0.45390666, -2.09178542]
+Tangential Distortion (p1, p2): [-0.01299144, 0.01337018]
+
+--- Calibration Quality ---
+Mean Reprojection Error: 0.0389 pixels
+
+--- Camera Matrix (Intrinsic Matrix) ---
+K = 
+[1234.1480, 0.0000, 528.4376]
+[0.0000, 1220.2688, 564.5803]
+[0.0000, 0.0000, 1.0000]
+
+--- Distortion Coefficients Vector ---
+dist_coeffs = [k1, k2, p1, p2, k3]
+            = [0.45390666, -2.09178542, -0.01299144, 0.01337018, 3.76752804]
+
+======================================================================
